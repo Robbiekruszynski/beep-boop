@@ -16,33 +16,29 @@
           </div>
           <a href="#openModal"><h3>Open to initialize</h3></a>
           <div id="openModal" class="modalDialog">
-          <div class="panel">
-            <div class="formInfo">
-              <label for="name">Please enter your name</label>
-              <input type="text" class="name" required id="name">
-             </div>
-            </div>
-
             <div class="panel">
             <form id="manipulator">
               <div class = "border">
                 <div id="form-space">
+                  <label for="name">Please enter your name</label>
+                  <input type="text" class="name" required id="name">
+                  <div class = "modal-body">
                   <p>Alter numbers that contain 1,2,3 along with numbers divisibleby 5</p>
                   <label for ="userInput">Input positive numeric value here</label>
                   <input id ="userInput" type = "text">
                 </div>
               <button type="submit" class="btn" id="button">initialize mutation</button>
                 <h4 span id="yourResult"></span></h4>
-              <!-- <a href="#openModal">Open for contact</a> -->
-                <!-- <div id="openModal" class="modalDialog"> -->
-                  <div>
+                  <div class "close">
                     <a href= "#close" title="Close" class= "close">X</a>
                     <h4 span id="yourResult"></span></h4>
                   </div>
                   </div>
                 </div>
+              </div>
             </form>
-          </div>
         </div>
+      </div>
+    </div>
   </body>
 </html>

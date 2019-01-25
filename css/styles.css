@@ -24,7 +24,7 @@ a:hover {
 }
 
 .modalDialog {
-	position: fixed;
+	position: absolute;
 	font-family: Arial, Helvetica, sans-serif;
 	top: 0;
 	right: 0;
@@ -83,10 +83,10 @@ a:hover {
 }
 .panel {
   color: black;
-  background-color: white;
+  /* background-color: #cedbdb; */
 }
 .formInfo {
-  background-color: white;
+  /* background-color: #cedbdb; */
   background-size: cover;
 }
 
@@ -102,7 +102,7 @@ a:hover {
 }
 
 #manipulator {
-  background-color: white;
+  /* background-color: white; */
   text-align: center;
 }
 
