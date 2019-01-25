@@ -8,15 +8,15 @@ var numberOutput = function(userNumber) {
   for (var i =0; i <=userNumber; i++) {
   dumpOldArray.push(i+1);
   }
-};
 
-  for (var = 0; i <=userNumber; i++) {
+
+  for (var i = 0; i <=userNumber; i++) {
     if (dumpOldArray[i].includes(1)){
       dumpNewArray[i] = "Beep"
         }
   }
 
-
+};
 
 
 // user-interface logic
