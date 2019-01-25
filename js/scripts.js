@@ -4,14 +4,6 @@
 //(1,2,3) without converting with parseInt
 
 var numberOutput = function(userNumber) {
-  function notZero(n){
-    n = +n
-    if(!n) {
-      throw new Error("iNVALID" +n);
-    }
-    return userNumer;
-    alert ("hey")
-  }
   // var dumpOldArray = [];
   var printOut = [];
   var mathOut = [];
@@ -22,7 +14,7 @@ var numberOutput = function(userNumber) {
 //creating a for loop to count by 1 up to userNumber
   for (var i =0; i <=userNumber; i++) {
   //using i.toString capturing the i and converting to strring to find "3" "2" "1"
-    if(i%5===0){
+    if(i%5===0 && i>0){
     printOut.push("Test")
 
     }else if(i.toString().includes("3")){
@@ -32,7 +24,7 @@ var numberOutput = function(userNumber) {
     printOut.push("Boop");
 
     }else if (i.toString().includes("1")) {
-      printOut.push("Beep");
+    printOut.push("Beep");
 
     }else{
     printOut.push(" " +i);
@@ -44,9 +36,9 @@ var numberOutput = function(userNumber) {
 // user-interface logic
   $(document).ready(function(){
   $("form#manipulator").submit(function(event){
-  event.preventDefault();
+    event.preventDefault();
 
-  var userInput = $("input#userInput").val();
+    var userInput = $("input#userInput").val();
 
   $("#yourResult").text(numberOutput(userInput));
 
