@@ -14,12 +14,18 @@ var numberOutput = function(userNumber) {
     if (i.toString().includes("1")) {
      printOut.push("Beep");
 
-   }else if (i.toString().includes("2")) {
+    //Using includes() method to determines whether an array includes targetted value among its entries, returning true or false as appropriate.
+
+    }else if (i.toString().includes("2")) {
     printOut.push("Boop");
-    
-}
 
+    }else if(i.toString().includes("3")){
+    printOut.push("I'm sorry, Dave. I'm afraid I can't do that.")
 
+    }else{
+    printOut.push(" " +i);
+
+    }
 
   }
     return printOut;
@@ -35,18 +41,3 @@ var numberOutput = function(userNumber) {
   $("#yourResult").text(numberOutput(userInput));
 })
 });
-
-
-// for (var i = 0; i <=userNumber; i++) {
-//
-//   if (dumpOldArray[i].includes(1)){
-//     dumpNewArray[i] = "Beep";
-//     console.log(userNumber)
-//
-//  }else if (dumpOldArray[i].includes(2)){
-//     dumpNewArray[i] = "Boop";
-//
-//  }else if (dumpOldArray[i].includes(3)){
-//     dumpNewArray[i] = "I'm sorry, Dave. I'm afraid I can't do that.";
-//  }
-//
