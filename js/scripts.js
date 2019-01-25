@@ -34,7 +34,6 @@
 
     }else{
     printOut.push(" " +i);
-
     }
   }
     return printOut;
