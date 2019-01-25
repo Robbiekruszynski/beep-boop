@@ -9,13 +9,10 @@ var numberOutput = function(userNumber) {
 
 //creating a for loop to count by 1 up to userNumber
   for (var i =0; i <=userNumber; i++) {
-
     //using i.toString capturing the i and converting to strring to find "1"
     if (i.toString().includes("1")) {
      printOut.push("Beep");
-
-    //Using includes() method to determines whether an array includes targetted value among its entries, returning true or false as appropriate.
-
+    //Using includes() method to determines whether an array includes targetted value among its entries.
     }else if (i.toString().includes("2")) {
     printOut.push("Boop");
 
@@ -26,11 +23,9 @@ var numberOutput = function(userNumber) {
     printOut.push(" " +i);
 
     }
-
   }
     return printOut;
 };
-
 
 // user-interface logic
   $(document).ready(function(){
