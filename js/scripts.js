@@ -7,6 +7,10 @@ var numberOutput = function(userNumber) {
   // var dumpOldArray = [];
   var printOut = [];
 
+  // if(isNaN(userNumber) {
+  //   return "Please enter a number"
+  // }
+
 //creating a for loop to count by 1 up to userNumber
   for (var i =0; i <=userNumber; i++) {
     //using i.toString capturing the i and converting to strring to find "3" "2" "1"
@@ -26,6 +30,15 @@ var numberOutput = function(userNumber) {
   }
     return printOut;
 };
+
+// var MathOutput = function(userMathNumber){
+//   var printMath = [];
+//
+//   for (var = 0; i<=userMathNumber; i++){
+//     if
+//   }
+//
+// });
 
 // user-interface logic
   $(document).ready(function(){
