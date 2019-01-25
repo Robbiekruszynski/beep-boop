@@ -4,3 +4,8 @@
   text-align: center;
   color: white;
 }
+
+#button{
+  display: flex;
+  align-items: center;
+}
