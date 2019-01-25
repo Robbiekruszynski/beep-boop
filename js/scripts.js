@@ -10,14 +10,14 @@ var numberOutput = function(userNumber) {
 //creating a for loop to count by 1 up to userNumber
   for (var i =0; i <=userNumber; i++) {
     //using i.toString capturing the i and converting to strring to find "1"
-    if (i.toString().includes("1")) {
-     printOut.push("Beep");
+    if(i.toString().includes("3")){
+    printOut.push("I'm sorry, Dave. I'm afraid I can't do that.")
     //Using includes() method to determines whether an array includes targetted value among its entries.
     }else if (i.toString().includes("2")) {
     printOut.push("Boop");
 
-    }else if(i.toString().includes("3")){
-    printOut.push("I'm sorry, Dave. I'm afraid I can't do that.")
+    }else if (i.toString().includes("1")) {
+      printOut.push("Beep");
 
     }else{
     printOut.push(" " +i);
