@@ -39,3 +39,16 @@
 #manipulator {
   text-align: center;
 }
+
+#name {
+  background-image: url(../img/box.gif);
+  background-size: cover;
+  color: black;
+}
+
+#userInput {
+  background-image: url(../img/box.gif);
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
