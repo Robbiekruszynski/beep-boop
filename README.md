@@ -17,9 +17,9 @@ read back 0,Beep!,Boop!,3,4,5
 * Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 * example 5
 read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,5
-* Numbers that are divisible by 5: all digits are replaced (all digits) with inputted name along with ", nice moves!"
+* Numbers that are divisible by 5: all digits are replaced (all digits) with inputted name along with ", I like your style!""
 example 5
-read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie, nice moves!"
+read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie, I like your style!""
 
 ## Setup/Installation Requirements
 

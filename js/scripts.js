@@ -21,7 +21,7 @@
   for (var i =0; i <=userNumber; i++) {
 //using i.toString capturing the i and converting to strring to find "3" "2" "1"
     if(i%5===0 && i>0){
-    printOut.push(nameInput +", nice moves!");
+    printOut.push(nameInput +", I like your style!");
 
     }else if(i.toString().includes("3")){
     printOut.push("I'm sorry, Dave. I'm afraid I can't do that.")
