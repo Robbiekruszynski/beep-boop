@@ -6,11 +6,36 @@
 }
 
 #button {
-  display: flex;
+
   align-items: center;
-  border-color: blue;
+  text-align: center;
+  padding-left: 50px;
+  background-color: grey;
 }
 
+#button:hover{
+  background-color:#9eff81;
+}
+
+#buttonMath {
+  align-items: center;
+  text-align: center;
+  padding-left: 50px;
+  background-color: grey;
+}
+
+#buttonMath:hover{
+  background-color:#ff819e;
+}
 #manipulator {
   text-align: center;
+}
+
+.border {
+  border-style: solid;
+  border-color: black;
+}
+
+.borderMath {
+  border-style: inset;
 }

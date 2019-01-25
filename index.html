@@ -10,16 +10,31 @@
     <title>Beep-boop</title>
       </head>
       <body>
+        <div class = "container">
         <div class = "jumbotron">
         <h1>Number Manipulation</h1>
         </div>
         <form id="manipulator">
+        <div class = "border">
           <div id="form-space">
+            <p>Alter numbers with a value of 1,2, and 3 within them</p>
             <label for ="userInput">Input positive numeric value here</label>
             <input id ="userInput" type = "text">
           </div>
         <button type="submit" class="btn" id="button">initialize mutation</button>
         <h4 span id="yourResult"></span></h4>
-
+        </div>
+        &nbsp;
+        <form id="manipMath">
+        <div class = "borderMath">
+          <div id="form-space">
+            <p>Alter numbers divisible by 3, 5, and 7</p>
+            <label for ="userMathInput">Input positive numeric value here</label>
+            <input id ="userMathInput" type = "text">
+          </div>
+        <button type="submit" class="btnMath" id="buttonMath">initialize mutation</button>
+        <h4 span id="yourMathResult"></span></h4>
+        </div>
+      </div>
   </body>
 </html>
