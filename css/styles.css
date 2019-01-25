@@ -5,6 +5,12 @@
   color: white;
 }
 
+body {
+  background-image: url(../img/background.gif);
+  background-size: cover;
+  text-align: center;
+  color: black;
+}
 #button {
 
   align-items: center;
@@ -18,21 +24,6 @@
 }
 
 .border {
-  border-style: inset;
-
-}
-#buttonMath {
-  align-items: center;
-  text-align: center;
-  padding-left: 50px;
-  background-color: #b1b3b1;
-}
-
-#buttonMath:hover{
-  background-color:#ff819e;
-}
-
-.borderMath {
   border-style: inset;
 }
 
@@ -51,4 +42,8 @@
   background-size: cover;
   text-align: center;
   color: black;
+}
+
+.panel {
+  background-color: #f1f2ee;
 }
