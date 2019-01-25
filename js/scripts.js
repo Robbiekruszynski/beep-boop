@@ -4,18 +4,25 @@
 //(1,2,3) without converting with parseInt
 
 var numberOutput = function(userNumber) {
+  function notZero(n){
+    n = +n
+    if(!n) {
+      throw new Error("iNVALID" +n);
+    }
+    return userNumer;
+    alert ("hey")
+  }
   // var dumpOldArray = [];
   var printOut = [];
+  var mathOut = [];
 
   if(isNaN(userNumber)) {
     return "Please enter a number"
   }
-
 //creating a for loop to count by 1 up to userNumber
   for (var i =0; i <=userNumber; i++) {
   //using i.toString capturing the i and converting to strring to find "3" "2" "1"
-
-  if(i%5===0){
+    if(i%5===0){
     printOut.push("Test")
 
     }else if(i.toString().includes("3")){
