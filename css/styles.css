@@ -10,7 +10,7 @@
   align-items: center;
   text-align: center;
   padding-left: 50px;
-  background-color: grey;
+  background-color: #b1b3b1;
 }
 
 #button:hover{
@@ -21,7 +21,7 @@
   align-items: center;
   text-align: center;
   padding-left: 50px;
-  background-color: grey;
+  background-color: #b1b3b1;
 }
 
 #buttonMath:hover{
