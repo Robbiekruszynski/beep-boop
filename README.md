@@ -24,8 +24,8 @@ read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie
 ## Setup/Installation Requirements
 
 * Open your preferred browser
-* to view live project please visit:
-* copy / paste https://github.com/Robbiekruszynski/beep-boop be sure you're in your Desktop directory
+* to view live project please visit:https://robbiekruszynski.github.io/beep-boop/
+*  Or copy / paste https://github.com/Robbiekruszynski/beep-boop be sure you're in your Desktop directory
 * clone or download https://github.com/Robbiekruszynski/beep-boop.git your Desktop
 * Open the beep-boop folder and run index.html with your selected browser
 * Explore Beep-Boop!
