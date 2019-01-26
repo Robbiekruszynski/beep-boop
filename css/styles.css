@@ -83,10 +83,8 @@ a:hover {
 }
 .panel {
   color: black;
-  /* background-color: #cedbdb; */
 }
 .formInfo {
-  /* background-color: #cedbdb; */
   background-size: cover;
 }
 
@@ -99,10 +97,10 @@ a:hover {
 
 #button:hover{
   background-color:#43a8a1;
+  border color: #43a8a1;
 }
 
 #manipulator {
-  /* background-color: white; */
   text-align: center;
 }
 
