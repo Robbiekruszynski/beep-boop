@@ -6,30 +6,29 @@
 
 ## Description
 * User inputs number:
-example 5 = 
+example 5 =
 read back 0,1,2,3,4,5
 * Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
-example 5 = 
+example 5 =
 read back 0,Beep!,2,3,4,5
 * Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
-example 5 = 
+example 5 =
 read back 0,Beep!,Boop!,3,4,5
 * Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
-* example 5 = 
+* example 5 =
 read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,5
 * Numbers that are divisible by 5: are replaced with inputted name along with ", I like your style!""
-example 5 = 
+example 5 =
 read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie, I like your style!""
 
 ## Setup/Installation Requirements
 
 * Open your preferred browser
-* to view live project please visit: https://robbiekruszynski.github.io/beep-boop/
-* copy / paste https://github.com/Robbiekruszynski/beep-boop sure you're in your Desktop directory
+* to view live project please visit:
+* copy / paste https://github.com/Robbiekruszynski/beep-boop be sure you're in your Desktop directory
 * clone or download https://github.com/Robbiekruszynski/beep-boop.git your Desktop
-* Open the week-2-project folder and run index.html with your selected browser
-* Take the survey to few results
-* PLEASE refresh the page if taking multiple times.
+* Open the beep-boop folder and run index.html with your selected browser
+* Explore Beep-Boop!
 * For those whom wish to alter or view the code please use your preferred text editor
 * Load up the index.html along with the styles.css and scripts.js
 * BE SURE to have BOOTSTRAP 3.3.7 and JQuery 3.3.1
