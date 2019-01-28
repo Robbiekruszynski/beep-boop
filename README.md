@@ -17,9 +17,13 @@ read back 0,Beep!,Boop!,3,4,5
 * Numbers that contain a 3: all digits are replaced (all digits) with "I'm sorry, Dave. I'm afraid I can't do that."
 * example 5 =
 read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,5
-* Numbers that are divisible by 5: are replaced with inputted name along with ", I like your style!""
+* Numbers that are divisible by 5: are replaced with inputted name along with "nameInput, you found a divisble of 5!""
 example 5 =
-read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie, I like your style!""
+read back 0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie, you found a divisble of 5!""
+* Numbers that are divisible by 7: are replaced with inputted name along with "nameInput, you found a divisable of 7!"
+example 5=
+read back0,Beep!,Boop!,"I'm sorry, Dave. I'm afraid I can't do that.",4,"Robbie, you found a divisble of 5!, 6, "Robbie, you found a divisable of 7!"
+* plus one small easter egg (pi) 
 
 ## Setup/Installation Requirements
 
